@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: configmap-reload
+  cloud:
+    kubernetes:
+      reload:
+        enabled: true
+      config:
+        name: configmap1
+        namespace: kong-test
