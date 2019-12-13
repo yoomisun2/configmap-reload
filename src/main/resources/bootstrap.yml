@@ -6,5 +6,5 @@ spring:
       reload:
         enabled: true
       config:
-        name: configmap1
+        name: api
         namespace: kong-test
